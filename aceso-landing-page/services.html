@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACESO | SERVICES</title>
+    <link rel="icon" href="./images/icon.ico" />
+    <script type="module" src="/main.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body class="overflow-x-hidden font-Lato bg-one">
+    <section
+      class="md:max-w-[95%] max-w-[100vw] hero cut bg-red-900 isolate text-white pt-6 pb-20 bg-services-header relative bg-cover bg-bottom bg-no-repeat overflow-hidden"
+    >
+      <div class="absolute inset-0 bg-black/30 -z-10"></div>
+      <header class="flex justify-between items-center md:px-20 pl-[10%]">
+        <div class="text-4xl">ACESO</div>
+        <div class="md:flex items-center gap-4 text-lg font-[400] hidden">
+          <a href="tel:08032676212">+2348032676212</a>
+          <div class="border border-two px-6 py-2">
+            <a href="./contact.html">Contact Us</a>
+          </div>
+        </div>
+      </header>
+      <nav class="flex gap-4 md:gap-10 mt-5 text-white/80 md:px-20 pl-[10%]">
+        <div class="underline_link">
+          <a href="./index.html">Home</a>
+        </div>
+        <div class="underline_link">
+          <a href="/about.html">About us</a>
+        </div>
+        <div class="underline_link md:hidden">
+          <a href="./contact.html">Contact Us</a>
+        </div>
+      </nav>
+      <div class="container_block">
+        <section class="mt-16">
+          <h1
+            class="text-3xl md:text-5xl leading-[50px] md:leading-[70px] mb-8"
+          >
+            <span class="text-4xl md:text-6xl font-[700]">OUR SERVICES</span>
+          </h1>
+        </section>
+      </div>
+    </section>
+    <section class="py-20 container_block">
+      <p class="text-4xl md:text-5xl mb-10 font-bold font-Phudu">
+        OUR UNMATCHED SERVICES
+      </p>
+      <div class="flex flex-col gap-10 services">
+        <div class="flex items-center flex-col lg:flex-row">
+          <img
+            src="./images/fitness-check.svg"
+            alt=""
+            class="flex-1 w-full max-w-[500px]"
+          />
+          <div class="flex-1 leading-8">
+            <p class="font-Phudu text-3xl mb-5">Medical Fitness Check-up</p>
+            <p>
+              Regular medical fitness check-ups play a vital role in maintaining
+              optimal health and well-being. These comprehensive examinations
+              provide a holistic assessment of various aspects of our physical
+              and mental state, helping to detect potential issues at their
+              earliest stages. By undergoing these check-ups, we empower
+              ourselves with knowledge about our current health status, enabling
+              us to make informed decisions regarding lifestyle choices,
+              preventive measures, and necessary treatments. Whether it's
+              measuring blood pressure, monitoring cholesterol levels, assessing
+              body composition, or evaluating overall fitness levels, these
+              check-ups serve as essential tools for proactive healthcare.
+              Embrace the power of medical fitness check-ups as an investment
+              towards a healthier future, where prevention takes precedence and
+              early intervention becomes the key to leading a vibrant and
+              fulfilling life.
+              <!-- Effective risk management practices help organizations
+              enhance safety, protect their employees, and prevent financial and
+              reputational losses. Some common strategies used in risk
+              management include conducting risk assessments, creating safety
+              protocols and procedures, providing training and education on risk
+              awareness, promoting a culture of safety, and maintaining accurate
+              records of incidents and near misses. Regular communication and
+              collaboration between employers and employees are also essential
+              for successful risk management. -->
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center flex-col lg:flex-row">
+          <img
+            src="./images/response.svg"
+            alt=""
+            class="flex-1 w-full max-w-[500px]"
+            loading="lazy"
+          />
+          <div class="flex-1 leading-8">
+            <p class="font-Phudu text-3xl mb-5">
+              Emergency medical response planing / Ambulance services
+            </p>
+            <p>
+              Emergency response planning is a vital aspect of Occupational
+              Health and Safety that aims to minimize the impact of emergencies,
+              such as natural disasters, accidents, or security threats, on the
+              health and safety of workers and the overall workplace. It
+              involves developing strategies, protocols, and procedures to
+              effectively respond to various types of emergencies in a timely
+              and organized manner. The primary goal of emergency response
+              planning is to protect the lives and well-being of employees,
+              visitors, and other stakeholders, while also minimizing property
+              damage and ensuring business continuity.
+              <!-- An effective emergency
+              response plan typically includes components such as emergency
+              contact information, evacuation procedures, communication
+              protocols, designated assembly points, first aid and medical
+              assistance protocols, and training for employees on emergency
+              response procedures. The plan should be periodically reviewed,
+              updated, and communicated to all employees to ensure its
+              effectiveness and awareness. In addition to internal emergency
+              response planning, organizations may need to coordinate with
+              external agencies, such as local fire departments or emergency
+              management authorities, to facilitate effective responses and
+              ensure compliance with relevant regulations. -->
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center flex-col lg:flex-row gap-5">
+          <img
+            src="./images/first-aid.svg"
+            alt=""
+            class="flex-1 w-full max-w-[350px]"
+            loading="lazy"
+          />
+          <div class="flex-1 leading-8">
+            <p class="font-Phudu text-3xl mb-5">
+              First aid and emergency medical response
+            </p>
+            <p>
+              First Aid and Emergency Medical Response Services play a critical
+              role in providing immediate medical care to individuals in need.
+              These services are generally provided by trained professionals who
+              are equipped with the knowledge, skills, and resources necessary
+              to respond to medical emergencies. First Aid services encompass
+              the provision of initial care for injuries or illnesses, with the
+              primary goal of preserving life, preventing further harm, and
+              promoting recovery. This can include administering CPR, treating
+              wounds, applying splints, managing allergic reactions, and
+              providing basic life support until professional medical help
+              arrives. Emergency medical response services, on the other hand,
+              involve a more comprehensive approach to handling medical
+              emergencies. These services typically employ paramedics or
+              emergency medical technicians (EMTs) who are trained to provide
+              advanced medical care at the scene of an accident or during
+              transport to a medical facility.
+              <!-- This can involve administering
+              medications, monitoring vital signs, performing advanced airway
+              management, and delivering lifesaving interventions. Both first
+              aid and emergency medical response services are essential in
+              ensuring the well-being and safety of individuals in times of
+              crisis. The prompt and appropriate delivery of medical care can
+              significantly increase the chances of positive outcomes and
+              minimize the potential long-term impact of an emergency. It is
+              important for organizations, communities, and individuals to be
+              aware of the importance of having access to qualified first aid
+              and emergency medical response services. Training programs and
+              certifications are available to teach individuals the necessary
+              skills and knowledge to respond effectively in emergency
+              situations. -->
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center flex-col lg:flex-row gap-5">
+          <img
+            src="./images/employees.svg"
+            alt=""
+            class="flex-1 w-full max-w-[350px]"
+            loading="lazy"
+          />
+          <div class="flex-1 leading-8">
+            <p class="font-Phudu text-3xl mb-5">
+              Annual Medical Routine Check-up for Employees
+            </p>
+            <p>
+              Annual medical routine check-ups for employees are equally
+              important and beneficial. These check-ups are specifically
+              designed to assess the health and well-being of employees, helping
+              to identify any potential health issues that may affect their work
+              performance or overall productivity. By conducting these check-ups
+              on a regular basis, employers can take a proactive approach
+              towards employee healthcare and create a healthier and more
+              productive work environment.
+              <!-- This can involve administering
+              medications, monitoring vital signs, performing advanced airway
+              management, and delivering lifesaving interventions. Both first
+              aid and emergency medical response services are essential in
+              ensuring the well-being and safety of individuals in times of
+              crisis. The prompt and appropriate delivery of medical care can
+              significantly increase the chances of positive outcomes and
+              minimize the potential long-term impact of an emergency. It is
+              important for organizations, communities, and individuals to be
+              aware of the importance of having access to qualified first aid
+              and emergency medical response services. Training programs and
+              certifications are available to teach individuals the necessary
+              skills and knowledge to respond effectively in emergency
+              situations. -->
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center flex-col lg:flex-row gap-5">
+          <img
+            src="./images/psycho.svg"
+            alt=""
+            class="flex-1 w-full max-w-[350px]"
+            loading="lazy"
+          />
+          <div class="flex-1 leading-8">
+            <p class="font-Phudu text-3xl mb-5">
+              Workers psychological assessment/support
+            </p>
+            <p>
+              Workers' psychological assessment and support are crucial aspects
+              of employee well-being and productivity. Psychological assessments
+              can help identify any underlying mental health issues, stressors,
+              or workplace factors that may be affecting an individual's
+              performance or overall mental well-being.
+              <!-- This can involve administering
+              medications, monitoring vital signs, performing advanced airway
+              management, and delivering lifesaving interventions. Both first
+              aid and emergency medical response services are essential in
+              ensuring the well-being and safety of individuals in times of
+              crisis. The prompt and appropriate delivery of medical care can
+              significantly increase the chances of positive outcomes and
+              minimize the potential long-term impact of an emergency. It is
+              important for organizations, communities, and individuals to be
+              aware of the importance of having access to qualified first aid
+              and emergency medical response services. Training programs and
+              certifications are available to teach individuals the necessary
+              skills and knowledge to respond effectively in emergency
+              situations. -->
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center flex-col lg:flex-row gap-5">
+          <img
+            src="./images/response-training.svg"
+            alt=""
+            class="flex-1 w-full max-w-[350px]"
+            loading="lazy"
+          />
+          <div class="flex-1 leading-8">
+            <p class="font-Phudu text-3xl mb-5">
+              Emergency medical response training for medical and paramedical
+              personnels
+            </p>
+            <p>
+              Emergency medical response training is essential for both medical
+              and paramedical personnel. It equips them with the skills and
+              knowledge necessary to provide immediate medical assistance during
+              emergencies, potentially saving lives.
+              <!-- This can involve administering
+              medications, monitoring vital signs, performing advanced airway
+              management, and delivering lifesaving interventions. Both first
+              aid and emergency medical response services are essential in
+              ensuring the well-being and safety of individuals in times of
+              crisis. The prompt and appropriate delivery of medical care can
+              significantly increase the chances of positive outcomes and
+              minimize the potential long-term impact of an emergency. It is
+              important for organizations, communities, and individuals to be
+              aware of the importance of having access to qualified first aid
+              and emergency medical response services. Training programs and
+              certifications are available to teach individuals the necessary
+              skills and knowledge to respond effectively in emergency
+              situations. -->
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center flex-col lg:flex-row">
+          <img
+            src="./images/equipment.png"
+            alt=""
+            class="flex-1 w-full max-w-[400px]"
+            loading="lazy"
+          />
+          <div class="flex-1 leading-8">
+            <p class="font-Phudu text-3xl mb-5">
+              Procurement of Health and Safety Materials.
+            </p>
+            <p>
+              The procurement of health and safety materials is a critical
+              aspect of maintaining a safe and healthy work environment. These
+              materials are essential for preventing accidents, minimizing
+              risks, and ensuring the well-being of employees and visitors.
+              Health and safety materials can vary depending on the nature of
+              the workplace and the specific hazards present. Some common
+              examples include personal protective equipment (PPE) such as
+              helmets, gloves, goggles, and respirators, first aid kits, fire
+              extinguishers, safety signs, and barriers. When procuring health
+              and safety materials, it is important to consider several factors.
+              First and foremost, the materials should be of high quality and
+              meet relevant safety standards. They should also be suitable for
+              the specific hazards and risks present in the workplace. It is
+              important to carefully assess the needs of the organization and
+              consult with safety professionals or experts if necessary. In
+              addition to quality, cost-effectiveness is also a crucial
+              consideration.
+              <!-- While it is essential not to compromise on the
+              safety and quality of materials, organizations should strive to
+              find suppliers who offer competitive prices without sacrificing
+              reliability. The procurement process for health and safety
+              materials typically involves identifying the required items,
+              researching potential suppliers, obtaining quotes or proposals,
+              evaluating options, and making a purchase decision. It is
+              important to maintain accurate records of purchases and ensure
+              regular inspections and maintenance of safety equipment to ensure
+              their effectiveness. Overall, the procurement of health and safety
+              materials is an ongoing responsibility that requires careful
+              planning, evaluation, and collaboration between various
+              stakeholders. By prioritizing safety and investing in high-quality
+              materials, organizations can create a safer and healthier
+              environment for everyone involved. -->
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center flex-col lg:flex-row">
+          <img
+            src="./images/safety_dev.svg"
+            alt=""
+            class="flex-1 w-full max-w-[400px]"
+            loading="lazy"
+          />
+          <div class="flex-1 leading-8">
+            <p class="font-Phudu text-3xl mb-5">
+              Health and safety program development.
+            </p>
+            <p>
+              Developing a comprehensive health and safety program is crucial
+              for organizations to effectively manage workplace risks, ensure
+              employee well-being, and maintain compliance with relevant
+              regulations. This program serves as a framework that outlines the
+              policies, procedures, and practices necessary to promote a safe
+              and healthy work environment.
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center flex-col lg:flex-row">
+          <img
+            src="./images/risk.svg"
+            alt=""
+            class="flex-1 w-full max-w-[500px]"
+          />
+          <div class="flex-1 leading-8">
+            <p class="font-Phudu text-3xl mb-5">Risk Accessment</p>
+            <p>
+              Risk management is an important component of Occupational Health
+              and Safety. It involves the process of identifying, assessing, and
+              controlling potential risks or hazards that could negatively
+              impact the health and safety of workers. The objective of risk
+              management is to minimize or eliminate the likelihood of
+              accidents, injuries, or illnesses occurring in the workplace. This
+              is achieved through various steps, including hazard
+              identification, risk assessment, implementing control measures,
+              and regularly monitoring and reviewing the effectiveness of those
+              measures.
+              <!-- Effective risk management practices help organizations
+              enhance safety, protect their employees, and prevent financial and
+              reputational losses. Some common strategies used in risk
+              management include conducting risk assessments, creating safety
+              protocols and procedures, providing training and education on risk
+              awareness, promoting a culture of safety, and maintaining accurate
+              records of incidents and near misses. Regular communication and
+              collaboration between employers and employees are also essential
+              for successful risk management. -->
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center flex-col lg:flex-row">
+          <img
+            src="./images/audit.svg"
+            alt=""
+            class="flex-1 w-full max-w-[400px]"
+            loading="lazy"
+          />
+          <div class="flex-1 leading-8">
+            <p class="font-Phudu text-3xl mb-5">Safety Audit.</p>
+            <p>
+              The primary purpose of safety audits is to proactively assess the
+              level of safety within an organization and make recommendations
+              for improvement. By conducting regular safety audits,
+              organizations can prevent accidents, injuries, and illnesses, as
+              well as maintain compliance with legal requirements
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center flex-col lg:flex-row">
+          <img
+            src="./images/safety_training.svg"
+            alt=""
+            class="flex-1 w-full max-w-[500px]"
+          />
+          <div class="flex-1 leading-8">
+            <p class="font-Phudu text-3xl mb-5">
+              Safety Training and Education
+            </p>
+            <p>
+              Safety training and education play a crucial role in ensuring the
+              well-being and protection of workers in the workplace. It involves
+              providing employees with the knowledge, skills, and resources to
+              work safely and effectively. Safety training programs are designed
+              to educate employees about potential hazards, safe working
+              practices, emergency procedures, proper use of equipment and
+              tools, and the importance of following safety protocols. Effective
+              safety training can empower employees to recognize and mitigate
+              risks, respond appropriately to emergencies, and contribute to a
+              safer work environment. Safety education, on the other hand,
+              focuses on enhancing employees' understanding of occupational
+              health and safety principles, regulations, and best practices.
+              <!-- This can be achieved through workshops, seminars, e-learning
+              modules, safety campaigns, and ongoing communication channels such
+              as newsletters or bulletin boards.
+              Employers have a responsibility
+              to ensure that safety training and education programs are tailored
+              to the specific needs of their workforce, regularly updated, and
+              accessible to all employees. Additionally, supervisors and
+              managers should lead by example, actively promote a culture of
+              safety, and provide ongoing support and reinforcement of safety
+              training outcomes. -->
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center flex-col lg:flex-row">
+          <img
+            src="./images/consulting.svg"
+            alt=""
+            class="flex-1 w-full max-w-[500px]"
+          />
+          <div class="flex-1 leading-8">
+            <p class="font-Phudu text-3xl mb-5">Safety Consulting</p>
+            <p>
+              Safety consulting is a specialized service that aims to help
+              organizations meet their occupational health and safety
+              requirements. It involves partnering with knowledgeable
+              professionals who provide expert advice, guidance, and support to
+              enhance workplace safety and mitigate risks. Safety consultants
+              work closely with businesses to assess their current safety
+              practices, identify potential hazards, and develop strategies to
+              prevent accidents, injuries, and occupational illnesses. They
+              often conduct thorough inspections and audits of the workplace,
+              review policies and procedures, and offer recommendations based on
+              industry best practices and legal standards. The scope of safety
+              consulting may vary depending on the specific needs of the
+              organization.
+              <!-- Consultants may assist with developing safety
+              programs, delivering training to employees, implementing safety
+              management systems, conducting hazard assessments, or providing
+              ongoing support and guidance. The benefits of safety consulting
+              are numerous. By partnering with experts in the field,
+              organizations can prioritize the well-being of their employees,
+              reduce the likelihood of workplace accidents, comply with legal
+              regulations, and enhance productivity. Additionally, safety
+              consulting helps foster a culture of safety within the
+              organization, empowering employees to actively participate in
+              maintaining a safe work environment. When choosing a safety
+              consultant, it is important to consider their qualifications,
+              experience, and expertise in the relevant industry. Their ability
+              to understand the unique challenges and requirements of your
+              organization will be crucial in providing effective guidance and
+              solutions. -->
+            </p>
+          </div>
+        </div>
+        <!-- last -->
+
+        <!-- <div class="flex items-center flex-col lg:flex-row">
+          <img
+            src="./images/safety_policy.svg"
+            alt=""
+            class="flex-1 w-full max-w-[400px]"
+            loading="lazy"
+          />
+          <div class="flex-1 leading-8">
+            <p class="font-Phudu text-3xl mb-5">Safety Policies.</p>
+            <p>
+              Developing clear and effective health and safety policies and
+              procedures is a crucial aspect of creating a safe work
+              environment. These policies and procedures provide guidance to
+              employees on how to conduct their work safely, mitigate risks, and
+              comply with legal requirements. Here are the steps involved in
+              developing health and safety policies and procedures.
+            </p>
+          </div>
+        </div> -->
+        <div class="flex items-center flex-col lg:flex-row">
+          <img
+            src="./images/env_compliance.svg"
+            alt=""
+            class="flex-1 w-full max-w-[400px]"
+            loading="lazy"
+          />
+          <div class="flex-1 leading-8">
+            <p class="font-Phudu text-3xl mb-5">Environmental Compliance</p>
+            <p>
+              Environmental compliance refers to the adherence to laws,
+              regulations, and standards pertaining to environmental protection.
+              It involves ensuring that an organization operates in a manner
+              that minimizes its impact on the environment and complies with
+              applicable environmental regulations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-two">
+      <div
+        class="container_block text-gray-900 grid grid-cols-1 md:grid-cols-3 gap-10"
+      >
+        <div>
+          <div>
+            <p class="text-4xl font-bold font-Phudu">ACESO</p>
+          </div>
+          <div class="flex gap-4 mt-5 text-2xl">
+            <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+          </div>
+        </div>
+        <div>
+          <p class="text-3xl font-Phudu">Links</p>
+          <div class="flex flex-col gap-4 mt-5 text-lg">
+            <a href="/index.html" class="w-fit underline_link">Home</a>
+            <a href="/services.html" class="w-fit underline_link"
+              >Our Services</a
+            >
+            <a href="/about.html" class="w-fit underline_link">About us</a>
+            <a href="/contact.html" class="w-fit underline_link">Contact us</a>
+          </div>
+        </div>
+        <div>
+          <p class="text-3xl font-Phudu">Contact Us</p>
+          <div class="flex flex-col gap-4 mt-5 text-lg">
+            <div class="flex gap-2 items-center">
+              <ion-icon name="call-outline" class="text-xl"></ion-icon>
+              <a href="">08032676212</a>
+            </div>
+            <div class="flex gap-2 items-center">
+              <ion-icon name="mail-unread-outline" class="text-xl"></ion-icon>
+              <a href="mailto:aceso.healthandsafety@gmail.com"
+                >aceso.healthandsafety@gmail.com</a
+              >
+            </div>
+            <div class="flex gap-2 items-center">
+              <div>
+                <ion-icon name="location-outline" class="text-xl"></ion-icon>
+              </div>
+              <p>
+                Plots 23, E-W Road Rumukwurushe Opposite White-House , Oilmill,
+                Portharcout.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-10 bg-two" />
+      <div class="container_block flex justify-between mt-10 flex-wrap">
+        <p>© ACESO OCCUPATIONAL HEALTH AND SAFETY Ltd . All right reserved.</p>
+        <p class="text-gray-700">
+          Design & Developed By Ife and Caleb Tech
+          <a href="tel:08135168529">08135168529</a>
+        </p>
+      </div>
+    </section>
+    <section
+      class="second_header py-4 md:py-5 bg-two/50 z-50 fixed top-0 hidden w-full backdrop-blur-sm"
+    >
+      <div class="container_block relative">
+        <header class="flex justify-between items-center text-gray-900">
+          <div class="text-3xl md:text-4xl">ACESO</div>
+          <div
+            class="md:flex items-center gap-8 md:gap-4 font-[400] absolute md:relative text-2xl md:text-xl translate-x-[150%] md:translate-x-0 navs right-[-5%] left-[-2%] text-whit backdrop-blur-m backdrop bg-two/90 md:bg-transparent"
+          >
+            <div class="underline_link">
+              <a href="./index.html">Home</a>
+            </div>
+            <div class="underline_link">
+              <a href="./services.html">Our Services</a>
+            </div>
+            <div class="underline_link">
+              <a href="./about.html">About Us</a>
+            </div>
+            <div class="underline_link">
+              <a href="./contact.html">Contact Us</a>
+            </div>
+          </div>
+          <div class="md:hidden text-4xl mt-2 cursor-pointer relative z-50 bar">
+            <ion-icon name="menu-sharp"></ion-icon>
+          </div>
+        </header>
+      </div>
+    </section>
+  </body>
+</html>
